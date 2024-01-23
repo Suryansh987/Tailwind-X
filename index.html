@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./src/output.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="md:w-[80%] m-auto">
+    <div class="flex justify-center w-full">
+        <!-- FIRST NAVBAR -->
+        <div class="sm:flex flex-col bg-white gap-3 hidden my-5">
+            <div class="sticky top-0">
+                
+                <div class="flex flex-col sticky top-0">
+                    <div class="rounded-full md:mx-5 md:p-3 sm:px-2 hover:bg-gray-200">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"
+                            class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk">
+                            <g>
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul class="sm:px-2">
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                home
+                            </span>
+                            <span class="hidden lg:block">Home</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                search
+                            </span>
+                            <span class="hidden lg:block">Explore</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                Notifications
+                            </span>
+                            <span class="hidden lg:block">Notifications</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                Mail
+                            </span>
+                            <span class="hidden lg:block">Messages</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                open_in_new
+                            </span>
+                            <span class="hidden lg:block">Grok</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                Person
+                            </span>
+                            <span class="hidden lg:block">Profile</span>
+                        </li>
+                        <li
+                            class="flex items-center gap-2 my-3 text-xl lg:text-2xl rounded-full font-semibold hover:bg-gray-200 md:px-5 w-fit py-2">
+                            <span class="material-symbols-outlined text-3xl">
+                                More
+                            </span>
+                            <span class="hidden lg:block">More</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECOND MIDDLE -->
+        <div class="flex flex-col h-fit w-full border-x border-gray-200">
+            <!-- NAV -->
+            <div class="flex justify-center items-center bg-white w-full h-14 border-b-0 border-gray-300 sticky top-0 backdrop-filter backdrop-blur-md bg-opacity-90">
+                <div
+                    class="flex justify-center items-center w-[45%] h-full border-b border-gray-300 hover:bg-gray-300 relative">
+                    For You
+                    
+                </div>
+                <div
+                    class="flex justify-center items-center w-[45%] h-full border-b border-gray-2 00 hover:bg-gray-300 relative">
+                    Following</div>
+                <div class="flex justify-center items-center w-[10%] h-full border-b border-gray-200">
+                    <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+                        Settings
+                    </span>
+                </div>
+            </div>
+
+            <!-- ADD POST -->
+            <div class="sm:flex items-start w-full bg-white border-b-[1px] border-gray-200 hidden">
+                <div class="flex align-top w-14 h-fit p-2">
+                    <img class="rounded-full"
+                        src="https://abs.twimg.com/sticky/default_profile_images/default_profile_bigger.png" alt="">
+                </div>
+                <div class="flex flex-col w-full py-4">
+                    <div class="pr-3">
+                        <input class="w-full text-xl outline-none" type="text" placeholder="What is happening?!">
+                    </div>
+                    <div class="flex gap-6 mt-3 items-center justify-between">
+                        <div class="flex gap-3 mt-3">
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">wallpaper</span>
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">gif_box</span>
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">ballot</span>
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">mood</span>
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">calendar_clock</span>
+                            <span
+                                class="material-symbols-outlined text-blue-400 p-1 hover:bg-blue-50 rounded-full">location_on</span>
+                        </div>
+                        <div class="flex items-end mt-2 mr-5">
+                            <button class="bg-blue-300 text-white font-bold py-2 px-4 rounded-full">Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POSTS -->
+            <div class="flex flex-col">
+                <div class="flex w-full h-fit border-b border-gray-200">
+                    <div class="flex w-11 rounded-full">
+                        <img class="self-start m-2 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_bigger.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col w-[89%] p-3 pt-1">
+                        <div class="flex h-7 items-end gap-2">
+                            <span class="font-bold">freeCodeCamp.org</span>
+                            <span class="text-sm pt-[2px] text-gray-500 text-ellipsis w-[30%] sm:w-auto overflow-hidden">@freeCodeCamp</span>
+                            <span class="text-gray-500 text-sm">18m</span>
+                        </div>
+                        <div class="h-full">
+                            "If you want to learn AWS Cloud, <span class="text-blue-400">@andrewbrown</span> created a
+                            107-hour bootcamp for you.
+                            It'll help you level up your cloud computing skills by building lots of projects.
+                            You'll learn about containers, authentication, Postgres, caching, CI/CD, and much more."
+                        </div>
+                        <div class="pt-3 pr-2">
+                            <img class="rounded-3xl"
+                                src="https://www.freecodecamp.org/news/content/images/size/w2000/2024/01/dataanalysis.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full h-fit border-b border-gray-200">
+                    <div class="flex w-11 rounded-full">
+                        <img class="self-start m-2 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_bigger.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col w-[89%] p-3 pt-1">
+                        <div class="flex h-7 items-end gap-2">
+                            <span class="font-bold">freeCodeCamp.org</span>
+                            <span class="text-sm pt-[2px] text-gray-500 text-ellipsis w-[30%] sm:w-auto overflow-hidden">@freeCodeCamp</span>
+                            <span class="text-gray-500 text-sm">18m</span>
+                        </div>
+                        <div class="h-full">
+                            "If you want to learn AWS Cloud, <span class="text-blue-400">@andrewbrown</span> created a
+                            107-hour bootcamp for you.
+                            It'll help you level up your cloud computing skills by building lots of projects.
+                            You'll learn about containers, authentication, Postgres, caching, CI/CD, and much more."
+                        </div>
+                        <div class="pt-3 pr-2">
+                            <img class="rounded-3xl"
+                                src="https://www.freecodecamp.org/news/content/images/size/w2000/2024/01/dataanalysis.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full h-fit border-b border-gray-200">
+                    <div class="flex w-11 rounded-full">
+                        <img class="self-start m-2 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_bigger.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col w-[89%] p-3 pt-1">
+                        <div class="flex h-7 items-end gap-2">
+                            <span class="font-bold">freeCodeCamp.org</span>
+                            <span class="text-sm pt-[2px] text-gray-500 text-ellipsis w-[30%] sm:w-auto overflow-hidden">@freeCodeCamp</span>
+                            <span class="text-gray-500 text-sm">18m</span>
+                        </div>
+                        <div class="h-full">
+                            "If you want to learn AWS Cloud, <span class="text-blue-400">@andrewbrown</span> created a
+                            107-hour bootcamp for you.
+                            It'll help you level up your cloud computing skills by building lots of projects.
+                            You'll learn about containers, authentication, Postgres, caching, CI/CD, and much more."
+                        </div>
+                        <div class="pt-3 pr-2">
+                            <img class="rounded-3xl"
+                                src="https://www.freecodecamp.org/news/content/images/size/w2000/2024/01/dataanalysis.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex w-full border-b border-gray-200">
+                    <div class="flex w-11 rounded-full">
+                        <img class="self-start m-2 rounded-full"
+                            src="https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_bigger.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col w-[89%] p-3 pt-1">
+                        <div class="flex h-7 items-end gap-2">
+                            <span class="font-bold">freeCodeCamp.org</span>
+                            <span class="text-sm pt-[2px] text-gray-500 text-ellipsis w-[30%] sm:w-auto overflow-hidden">@freeCodeCamp</span>
+                            <span class="text-gray-500 text-sm">18m</span>
+                        </div>
+                        <div class="h-full">
+                            "If you want to learn AWS Cloud, <span class="text-blue-400">@andrewbrown</span> created a
+                            107-hour bootcamp for you.
+                            It'll help you level up your cloud computing skills by building lots of projects.
+                            You'll learn about containers, authentication, Postgres, caching, CI/CD, and much more."
+                        </div>
+                        <div class="pt-3 pr-2">
+                            <img class="rounded-3xl"
+                                src="https://www.freecodecamp.org/news/content/images/size/w2000/2024/01/dataanalysis.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIRD SEARCH -->
+        <div class="lg:flex lg:flex-col hidden ">
+            <!-- SEARCH -->
+            <div class="bg-white py-2 sticky top-0 z-10">
+                <div class="flex bg-[#eff3f4] mx-4 px-4 py-3 rounded-full mt-1">
+                    <span class="material-symbols-outlined px-1.5">
+                        search
+                    </span>
+                    <input class="bg-[#eff3f4] px-3 flex-wrap-reverse" type="text" placeholder="Search">
+                </div>
+            </div>
+            <!-- What's happening -->
+            <div class="flex flex-col bg-gray-100 mx-4 rounded-3xl sticky top-[-40vh] z-[3]">
+                <span class="font-bold text-2xl px-6 py-3"> What's happening</span>
+                <div class="flex flex-col hover:bg-gray-200 px-6 space-y-1 py-3">
+                    <div>Trending</div>
+                    <div class="font-bold text-lg">Ayesha</div>
+                    <div>22.3k posts</div>
+                </div>
+                <div class="flex flex-col hover:bg-gray-200 px-6 space-y-1 py-3">
+                    <div>Trending</div>
+                    <div class="font-bold text-lg">Ayesha</div>
+                    <div>22.3k posts</div>
+                </div>
+                <div class="flex flex-col hover:bg-gray-200 px-6 space-y-1 py-3">
+                    <div>Trending</div>
+                    <div class="font-bold text-lg">Ayesha</div>
+                    <div>22.3k posts</div>
+                </div>
+                <div class="flex flex-col hover:bg-gray-200 px-6 space-y-1 py-3">
+                    <div>Trending</div>
+                    <div class="font-bold text-lg">Ayesha</div>
+                    <div>22.3k posts</div>
+                </div>
+                <div class="flex flex-col hover:bg-gray-200 px-6 space-y-1 py-3 rounded-b-3xl cursor-pointer">
+                    <div class="text-blue-500 underline">Show More</div>
+                </div>
+            </div>
+
+            <!-- WHO TO FOLLOW -->
+            <div class="flex flex-col bg-gray-100 mx-4 my-3 rounded-3xl justify-around sticky top-[39vh]">
+                <span class="font-bold text-2xl px-6 py-3">Who to Follow</span>
+                <div class="flex hover:bg-gray-200 justify-between items-center px-6 space-y-1 py-3">
+                    <div class="flex gap-6 items-center">
+                        <div class="w-11 h-fit">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1612507803842932736/PLiJMD_l_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-md">USER</span>
+                            <span class="text-sm">@user</span>
+                        </div>
+                    </div>
+                    <div><button class="bg-gray-900 text-white font-bold py-2 px-4 rounded-full">Follow</button></div>
+                </div>
+                <div class="flex hover:bg-gray-200 justify-between items-center px-6 space-y-1 py-3">
+                    <div class="flex gap-6 items-center">
+                        <div class="w-11 h-fit">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1612507803842932736/PLiJMD_l_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-md">USER</span>
+                            <span class="text-sm">@user</span>
+                        </div>
+                    </div>
+                    <div><button class="bg-gray-900 text-white font-bold py-2 px-4 rounded-full">Follow</button></div>
+                </div>
+                <div class="flex hover:bg-gray-200 justify-between items-center px-6 space-y-1 py-3">
+                    <div class="flex gap-6 items-center">
+                        <div class="w-11 h-fit">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1612507803842932736/PLiJMD_l_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-md">USER</span>
+                            <span class="text-sm">@user</span>
+                        </div>
+                    </div>
+                    <div><button class="bg-gray-900 text-white font-bold py-2 px-4 rounded-full">Follow</button></div>
+                </div>
+                <div class="flex hover:bg-gray-200 justify-between items-center px-6 space-y-1 py-3">
+                    <div class="flex gap-6 items-center">
+                        <div class="w-11 h-fit">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1612507803842932736/PLiJMD_l_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="font-bold text-md">USER</span>
+                            <span class="text-sm">@user</span>
+                        </div>
+                    </div>
+                    <div><button class="bg-gray-900 text-white font-bold py-2 px-4 rounded-full">Follow</button></div>
+                </div>
+                <div class="flex flex-col hover:bg-gray-200 px-8 space-y-1 py-3 rounded-b-3xl cursor-pointer">
+                    <div class="text-blue-500 underline">Show More</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sm:hidden flex justify-between w-full border-t border-gray-200 sticky bottom-0 px-3 bg-white">
+        <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+            Home
+        </span>
+        <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+            search
+        </span>
+        <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+            mail
+        </span>
+        <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+            Notifications
+        </span>
+        <span class="material-symbols-outlined rounded-full p-2 hover:bg-gray-200 ">
+            Settings
+        </span>
+    </div>
+</div>
+</body>
+
+</html>
